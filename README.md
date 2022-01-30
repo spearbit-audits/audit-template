@@ -1,5 +1,7 @@
-# audit-template
+# Security Review Template
 
-This is the Spearbit template repository for sercurity reviews.
+This is a Spearbit Template Repository for our security reviews.
 
-Create auditing issues with the `Audit finding` template and use the appropriate severity labels. Please follow the report writing guide.
+Create findings issues with the `security review finding` template and use the appropriate severity labels. 
+
+Please follow the [report writing style guide](https://hackmd.io/@spearbit/S1T63tOqt).
