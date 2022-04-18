@@ -6,14 +6,14 @@ labels: ''
 assignees: ''
 ---
 
-**Severity**: *Critical Risk* / *High Risk* / *Medium Risk* / *Low Risk* / *Informational* / *Gas Optimization*
+**Severity:** Critical Risk / High Risk / Medium Risk / Low Risk / Informational / Gas Optimization
 
-**Context**: [File.sol#L123](github-permalink)
+**Context:** [File.sol#L123](github-permalink) 
 
-**Situation**:
+**Description:** 
 
-**Recommendation**:
+**Recommendation:** 
 
-**[Project]**: 
+**[Project]:** 
 
-**Spearbit**: 
+**Spearbit:** 
