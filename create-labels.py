@@ -24,7 +24,7 @@ def delete_default_labels():
         ]
     for i in default_labels:
         r = requests.delete(f"https://api.github.com/repos/{username}/{repo}/labels/{i}", headers=headers)
-        print(r)
+        print(f"Deleting {i}... Github API  ", r)
     print("Done deleting default labels!\n")
 
 
@@ -43,9 +43,8 @@ def create_new_labels():
 
     i = 0
     for data in labels:
-        print(data)
         r = requests.post(f"https://api.github.com/repos/{username}/{repo}/labels", headers=headers, json=data)
-        print(r)
+        print(f"Creating new label {data}... Github API {r}")
         i+=1
     print("Done creating new labels!\n")
 
@@ -70,7 +69,7 @@ headers = {
 
 url = f"https://api.github.com/repos/{username}/{repo}/labels"
 
-print(f"Deleting default labels in: {url}...")
+print(f"Deleting default labels in: {url}...\n")
 
 delete_default_labels()
 
