@@ -3,8 +3,8 @@
 This is the Spearbit template repository for security reviews.
 
 Create GitHub issues with the `finding.md` template and use the appropriate severity labels (see below).
-
-Please run the `create-labels.py` script locally when preparing the audit repository to remove Github's default labels and introduce custom ones in order to improve auditors workflow.
+1 - Inside the `ISSUE_TEMPLATE`, change the [PROJECT]: name to the client's name accordingly. 
+2 - Please run the `create-labels.py` script locally when preparing the audit repository to remove Github's default labels and introduce custom ones in order to improve auditors workflow.
 
 ## Workflow
 
@@ -31,4 +31,4 @@ Please run the `create-labels.py` script locally when preparing the audit reposi
 
 - These issues should then be polished and properly typeset. This task is mainly aimed at non-lead security researchers and apprentices in the project. Please follow the [style guidelines](https://hackmd.io/@spearbit/S1T63tOqt).
 
-  - Use the [report-generator](https://github.com/spearbit-audits/report-generator) to collect issues into a markdown file to be later compiled into a .pdf via LaTex. This allows the GitHub issues to be a single source of truth.
+  - Use the [report-generator](https://github.com/spearbit-audits/report-generator-template_v.2) to collect issues into a markdown file to be later compiled into a .pdf via LaTex. This allows the GitHub issues to be a single source of truth.
