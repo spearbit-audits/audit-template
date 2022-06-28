@@ -3,8 +3,10 @@
 This is the Spearbit template repository for security reviews.
 
 Create GitHub issues with the `finding.md` template and use the appropriate severity labels (see below).
-1 - Inside the `ISSUE_TEMPLATE`, change the [PROJECT]: name to the client's name accordingly. 
-2 - Please run the `create-labels.py` script locally when preparing the audit repository to remove Github's default labels and introduce custom ones in order to improve auditors workflow.
+
+- Inside the `ISSUE_TEMPLATE`, change the [PROJECT]: name to the client's name accordingly. 
+
+- Please run the `create-labels.py` script locally when preparing the audit repository to remove Github's default labels and introduce custom ones in order to improve auditors workflow.
 
 ## Workflow
 
