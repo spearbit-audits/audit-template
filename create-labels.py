@@ -39,8 +39,7 @@ def create_new_labels():
         { "name": "Status: Acknowledged", "color": "5319E7"},
         { "name": "Status: Fixed", "color": "0E8A16"},
         { "name": "Status: ReadyForReport", "color": "bfdadc"},
-        { "name": "Status: ReadyForReport", "color": "bfdadc"},
-        { "name": "Monitoring: ", "color": "FBCA04", "description": "Invariants and areas for monitoring"}
+        { "name": "Monitoring ☎: ", "color": "FBCA04", "description": "Invariants and areas for monitoring"}
     ]
 
     i = 0
