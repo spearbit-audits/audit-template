@@ -33,4 +33,4 @@ Create GitHub issues with the `finding.md` template and use the appropriate seve
 
 - These issues should then be polished and properly typeset. This task is mainly aimed at non-lead security researchers and apprentices in the project. Please follow the [style guidelines](https://hackmd.io/@spearbit/S1T63tOqt).
 
-  - Use the [report-generator](https://github.com/spearbit-audits/report-generator-template_v.2) to collect issues into a markdown file to be later compiled into a .pdf via LaTex. This allows the GitHub issues to be a single source of truth.
+
